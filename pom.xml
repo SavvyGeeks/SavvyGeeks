@@ -145,7 +145,9 @@
             <version>3.0.0-M5</version> <!-- Adjust version as needed -->
             <configuration>
                 <includes>
-                    <include>**/TestRunnerTestng.java</include>
+                   <!-- <include>**/TestRunnerTestng.java</include> -->
+                    <include>**/MyTestRunner.java</include> 
+                   
                 </includes>
             </configuration>
         </plugin>
